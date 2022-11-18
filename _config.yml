@@ -20,7 +20,6 @@ locale: en-US
 title: "AEMP's Portfolio"
 description: "Details progress made on FridgeCheck"
 baseurl:
-# baseurl: "/portfolio-aemp"
 url: "61040-team-portfolio.vercel.app"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
@@ -92,14 +91,14 @@ defaults:
 
 # Site Author
 author:
-  name: Elisa Jacobo
-  picture: /images/elisa-photo.jpg
-  email: elisaj@mit.edu
+  name: AEMP
+  picture: /images/group-photo.jpg
+  email: 61040-team-aemp@mit.edu
 
 # Footer Links
 footer_links:
   - title: GitHub
-    url: https://github.com/elisaj1317
+    url: https://github.com/Pujabalaji/fridge-check
     icon: fab fa-github-square
   - title: Feed
     url: atom.xml
