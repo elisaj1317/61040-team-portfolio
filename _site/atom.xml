@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/portfolio-aemp/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/portfolio-aemp/" rel="alternate" type="text/html" /><updated>2022-11-18T14:36:52-05:00</updated><id>http://localhost:4000/portfolio-aemp/atom.xml</id><title type="html">AEMP’s Portfolio</title><subtitle>Details progress made on FridgeCheck</subtitle><author><name>Elisa Jacobo</name><email>elisaj@mit.edu</email></author><entry><title type="html">Project Review: Mattseokchusetts Institute pyof Technologlee</title><link href="http://localhost:4000/portfolio-aemp/project-review-2/" rel="alternate" type="text/html" title="Project Review: Mattseokchusetts Institute pyof Technologlee" /><published>2022-11-16T00:00:00-05:00</published><updated>2022-11-16T00:00:00-05:00</updated><id>http://localhost:4000/portfolio-aemp/project-review-2</id><content type="html" xml:base="http://localhost:4000/portfolio-aemp/project-review-2/">&lt;div id=&quot;entry-table-of-contents&quot; class=&quot;toc-wrapper&quot;&gt;
+  &lt;h2 id=&quot;toc-toggle&quot; class=&quot;no_toc&quot;&gt;
+  Table of Contents &lt;i class=&quot;toc-toggle-icon fas fa-chevron-down&quot;&gt;&lt;/i&gt;
+&lt;/h2&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#pitch-video-to-review&quot; id=&quot;markdown-toc-pitch-video-to-review&quot;&gt;Pitch Video to Review&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#idea-1-meetdeets&quot; id=&quot;markdown-toc-idea-1-meetdeets&quot;&gt;Idea 1: MeetDeets&lt;/a&gt;        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#problem&quot; id=&quot;markdown-toc-problem&quot;&gt;Problem&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#concepts-and-operational-principle&quot; id=&quot;markdown-toc-concepts-and-operational-principle&quot;&gt;Concepts and Operational Principle&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#idea-2-favshare&quot; id=&quot;markdown-toc-idea-2-favshare&quot;&gt;Idea 2: FavShare&lt;/a&gt;        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#problem-1&quot; id=&quot;markdown-toc-problem-1&quot;&gt;Problem&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#concepts-and-operational-principle-1&quot; id=&quot;markdown-toc-concepts-and-operational-principle-1&quot;&gt;Concepts and Operational Principle&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#idea-3-calial&quot; id=&quot;markdown-toc-idea-3-calial&quot;&gt;Idea 3: Calial&lt;/a&gt;        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#problem-2&quot; id=&quot;markdown-toc-problem-2&quot;&gt;Problem&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#concepts-and-operational-principle-2&quot; id=&quot;markdown-toc-concepts-and-operational-principle-2&quot;&gt;Concepts and Operational Principle&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;h1 id=&quot;pitch-video-to-review&quot;&gt;Pitch Video to Review&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3D_nASRnKt4&quot;&gt;https://www.youtube.com/watch?v=3D_nASRnKt4&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;idea-1-meetdeets&quot;&gt;Idea 1: MeetDeets&lt;/h2&gt;
+
+&lt;h3 id=&quot;problem&quot;&gt;Problem&lt;/h3&gt;
+&lt;p&gt;We definitely understand the problem of planning in-person meetings! It can definitely be tedious. On your slide, you have “Who’s coming / who can make it?”. We spent some time discussing the different between the two, which is probably distracting from the main point. To make it clear, maybe choose one of those questions or separate each question into two separate bullet points. Though the picture is a stock photo, we think the picture on the problem slide does a great job of previewing the complexity of this compelling problem.&lt;/p&gt;
+
+&lt;h3 id=&quot;concepts-and-operational-principle&quot;&gt;Concepts and Operational Principle&lt;/h3&gt;
+
+&lt;p&gt;The concepts involved in MeetDeets is clear, but we find it confusing that BaseInfo and Attendee are separate concepts. BaseInfo seems to include Time, and we would think both of these (who can meet and when to meet) are high debatable topics. Though, we are not totally sure what is included in BaseInfo.&lt;/p&gt;
+
+&lt;p&gt;One thing that we think is unclear is what info is up for suggestions and how to decide between suggestions. The sketch does a great job of showing how to create an event, but it seems like the user needs to set a Title, Time, and Description. Does this mean other people cannot propose alternate times? It is also unclear how users can suggest locations, but we think this will come together and be easy enough for users to execute!&lt;/p&gt;
+
+&lt;p&gt;MeetDeets could solve the problem. While the idea is similar to the Scheduling Assistant on Outlook, we think the adoption of a Google Maps-like SuggestThings concept can set this idea apart.&lt;/p&gt;
+
+&lt;h2 id=&quot;idea-2-favshare&quot;&gt;Idea 2: FavShare&lt;/h2&gt;
+
+&lt;h3 id=&quot;problem-1&quot;&gt;Problem&lt;/h3&gt;
+&lt;p&gt;Topic conversations is definitely a prevalent problem, though we could not think of the last time it personally happened to each of us. The images on this slide are funny. If the someone’s breakfast looked like that, maybe they should bring it up! There is a compelling distinction in the problem between simple topic conversations that both people share versus &lt;em&gt;preferred&lt;/em&gt; topics. This is an compelling problem that could optimize happiness during conversations!&lt;/p&gt;
+
+&lt;h3 id=&quot;concepts-and-operational-principle-1&quot;&gt;Concepts and Operational Principle&lt;/h3&gt;
+&lt;p&gt;The concepts displayed on the slide were straightforward. However, we couldn’t make out the pages on the navigation bar or submenus, so we would suggest to make them bigger in the wireframe, display them differently, or create a different slide each of these sections. While it is currently unclear how users add interests (probably because we cannot view the menus listed), the description on the slide makes it seem like it would be easy for users to execute.&lt;/p&gt;
+
+&lt;p&gt;These concepts can definitely help prompt conversation topics. A suggestion to address the problem of &lt;em&gt;preferred&lt;/em&gt; conversation topics would be to have a little contest or ranking system within each category. For example, in Books, users can choose Harry Potter vs Outliers or The Giving Tree vs The Great Gatsby (like a BuzzFeed Quiz) and they can share results.&lt;/p&gt;
+
+&lt;h2 id=&quot;idea-3-calial&quot;&gt;Idea 3: Calial&lt;/h2&gt;
+
+&lt;h3 id=&quot;problem-2&quot;&gt;Problem&lt;/h3&gt;
+&lt;p&gt;You spoke about the problem clearly. While we understand where you are coming from, we believe there are ways to host your calendar and see other people’s calendars. For example, someone could &lt;a href=&quot;https://support.microsoft.com/en-us/office/open-another-person-s-exchange-calendar-2257f515-408f-48ea-9363-11d0d5848c77&quot;&gt;share their calendar&lt;/a&gt;. However, this is still a compelling problem, with multiple solutions (looks like you went a different route :)).&lt;/p&gt;
+
+&lt;h3 id=&quot;concepts-and-operational-principle-2&quot;&gt;Concepts and Operational Principle&lt;/h3&gt;
+
+&lt;p&gt;We think the concepts are straightforward, and splitting up the concepts onto multiple slides made the operational principles more clear as well. We believe the users will have a easy time using the platform. This solution of hosting calendars on your social media page is such a clever adoption! These concepts merge together to form a coherent app. While it does not hold the same pros as current calendar apps listed on the problem slide, we believe this solves the cons. This could be a fun way to find events and check out what other people are up to! If you would like the calendar feature to be a focus of the app, you could make a page to list a compiled calendar of the user’s closest friends and it could be cool to merge events added on Calial to Google Calendar / Apple Calendar / Outlook.&lt;/p&gt;
+
+&lt;p&gt;I think you definitely made the last slide work for you, like we talked about in class! Great job with that!&lt;/p&gt;</content><author><name>Elisa Jacobo</name><email>elisaj@mit.edu</email></author><category term="Project" /><category term="6.1040" /><category term="Review" /><summary type="html">A review of another team&apos;s pitch</summary></entry><entry><title type="html">Project Review: MAST</title><link href="http://localhost:4000/portfolio-aemp/project-review-3/" rel="alternate" type="text/html" title="Project Review: MAST" /><published>2022-11-16T00:00:00-05:00</published><updated>2022-11-16T00:00:00-05:00</updated><id>http://localhost:4000/portfolio-aemp/project-review-3</id><content type="html" xml:base="http://localhost:4000/portfolio-aemp/project-review-3/">&lt;div id=&quot;entry-table-of-contents&quot; class=&quot;toc-wrapper&quot;&gt;
+  &lt;h2 id=&quot;toc-toggle&quot; class=&quot;no_toc&quot;&gt;
+  Table of Contents &lt;i class=&quot;toc-toggle-icon fas fa-chevron-down&quot;&gt;&lt;/i&gt;
+&lt;/h2&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#overall-feedback-for-team-mast&quot; id=&quot;markdown-toc-overall-feedback-for-team-mast&quot;&gt;Overall feedback for Team MAST&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tune-trail&quot; id=&quot;markdown-toc-tune-trail&quot;&gt;Tune Trail&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#curator-central&quot; id=&quot;markdown-toc-curator-central&quot;&gt;Curator Central&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#class-critique&quot; id=&quot;markdown-toc-class-critique&quot;&gt;Class Critique&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;h1 id=&quot;overall-feedback-for-team-mast&quot;&gt;Overall feedback for Team MAST&lt;/h1&gt;
+
+&lt;p&gt;Great ideas, and nice pitch video! Any of your ideas could make super interesting projects. Below is some feedback on the motivation and solution you presented for each of your ideas.&lt;/p&gt;
+
+&lt;h1 id=&quot;tune-trail&quot;&gt;Tune Trail&lt;/h1&gt;
+
+&lt;p&gt;It wasn’t immediately obvious why the current recommendation algorithms such as those provided by Spotify fall short. Is there a particular reason it’s necessary to have people recommend different songs to their friends or others, as opposed to relying on an algorithm that takes into account each person’s music taste, and already contains information about relationships such as “liking song A usually means the user likes song B too”? What specifically is the issue with the current algorithm? It’s not obvious that getting recommendations from friends is the best way to learn about new music you’d like.&lt;/p&gt;
+
+&lt;p&gt;It seemed that this app could have been framed as “a new social media to connect people with similar music interests,” and that could have avoided confusion over what’s wrong with Spotify.&lt;/p&gt;
+
+&lt;p&gt;The concepts were clear. The concept of a Tune Trail was well-defined, with a clear purpose. Other than User, we weren’t super clear on what other concepts you’d need for this app, but the concepts make sense and the app seems like it would be coherent.&lt;/p&gt;
+
+&lt;h1 id=&quot;curator-central&quot;&gt;Curator Central&lt;/h1&gt;
+
+&lt;p&gt;The problem intuitively makes sense, but perhaps you could analyze some specific statistics to clearly showcase that museum engagement is an issue.&lt;/p&gt;
+
+&lt;p&gt;A slight concern would be that it’s possible Curator Central would turn museum visits into a scavenger hunt with people staring at their phones, or rushing around trying to “collect” all the artwork (i.e. scan all the QR codes) rather than truly enjoying it. Letting people annotate specific parts of each piece of artwork is super interesting and could be very effective; is there a way to maybe avoid encouraging people to “collect” and instead encourage people to analyze the pieces that they’re in front of and see what others have said about them? This wouldn’t really be a huge change to your concepts, maybe just not wording things as “collecting.”&lt;/p&gt;
+
+&lt;p&gt;Your app would likely make a huge difference in museum engagement, and your concepts were clear. This is a very interesting idea.&lt;/p&gt;
+
+&lt;h1 id=&quot;class-critique&quot;&gt;Class Critique&lt;/h1&gt;
+
+&lt;p&gt;The problem was clear, and it seems intuitive that it would be helpful to receive reviews online and on an ad-hoc basis. Showing us what the previous system for art critiques at MIT looked like helped us understand the issue.&lt;/p&gt;
+
+&lt;p&gt;Critiquing artwork while it’s in progress could be challenging, as it’s hard to just start over completely, and it could also be challenging to see the overall point of a piece of artwork until it’s almost complete. Maybe you could consider different types of critiques? Maybe you can request a critique on your idea, or on a sketch, and have these be different types of reviews, so it’s clear what type of feedback each artist is looking for for their piece.&lt;/p&gt;
+
+&lt;p&gt;This would be a coherent app, the concept of a Critique is clear, and the app would address the problem.&lt;/p&gt;</content><author><name>Elisa Jacobo</name><email>elisaj@mit.edu</email></author><category term="Project" /><category term="6.1040" /><category term="Review" /><summary type="html">A review of another team&apos;s pitch</summary></entry><entry><title type="html">Project Review: Countability</title><link href="http://localhost:4000/portfolio-aemp/project-review-4/" rel="alternate" type="text/html" title="Project Review: Countability" /><published>2022-11-16T00:00:00-05:00</published><updated>2022-11-16T00:00:00-05:00</updated><id>http://localhost:4000/portfolio-aemp/project-review-4</id><content type="html" xml:base="http://localhost:4000/portfolio-aemp/project-review-4/">&lt;div id=&quot;entry-table-of-contents&quot; class=&quot;toc-wrapper&quot;&gt;
+  &lt;h2 id=&quot;toc-toggle&quot; class=&quot;no_toc&quot;&gt;
+  Table of Contents &lt;i class=&quot;toc-toggle-icon fas fa-chevron-down&quot;&gt;&lt;/i&gt;
+&lt;/h2&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#problem-definition&quot; id=&quot;markdown-toc-problem-definition&quot;&gt;Problem Definition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#solution-1-scoring&quot; id=&quot;markdown-toc-solution-1-scoring&quot;&gt;Solution 1: Scoring&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#solution-2-bidding&quot; id=&quot;markdown-toc-solution-2-bidding&quot;&gt;Solution 2: Bidding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#solution-3-blocking&quot; id=&quot;markdown-toc-solution-3-blocking&quot;&gt;Solution 3: Blocking&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;h1 id=&quot;problem-definition&quot;&gt;Problem Definition&lt;/h1&gt;
+&lt;p&gt;We think the problem suggested is interesting and is definitely relatable for many students. We wish there was more of a user story related to how the problem was presented, maybe explaining the perspective of an unmotivated student/worker. We feel it would be more compelling if the problem were presented as a real world experience. Another approach that could achieve a similar goal is presenting data on how motivation influences productivity. We think that expanding on the problem definition could help set up the solutions more effectively.&lt;/p&gt;
+
+&lt;h1 id=&quot;solution-1-scoring&quot;&gt;Solution 1: Scoring&lt;/h1&gt;
+&lt;p&gt;The concepts involved in scoring are clear, but we find it a little confusing how you would enforce the point system. How do you prevent students from creating fake tasks or submitting fake pictures from earning points? Also an even bigger issue is related to the sharing of work and plagiarism. Some classes do not allow students to collaborate on assignments or for students to share solutions, so how would your application give points on tasks that should not be shared publicly.&lt;/p&gt;
+
+&lt;p&gt;We think the concept of the notification could be effective, but we are not exactly sure how this would work. How would you ensure that a student received the notification in a timely manner? Would they have to be on the site to get the notification or would you ping their phone?&lt;/p&gt;
+
+&lt;p&gt;We think that there are still some ideas within Scoring that would need to be fleshed out to promote social accountability and reward users for the work they are doing. We think one thing to consider is how you would convince people to use the app since it may be an invasion of privacy to take a picture of your workspace.&lt;/p&gt;
+
+&lt;h1 id=&quot;solution-2-bidding&quot;&gt;Solution 2: Bidding&lt;/h1&gt;
+&lt;p&gt;We believe the concepts in bidding are a little vague. One thing that was not explained was the concept of bidding itself. Is the bid made by the user doing the task or the user monitoring the person doing the task? How does the payment process work? We think that the monetary component may dissuade people from joining the app. We think that the bidding process may seem like more of a punishment for people that suffer with ADHD rather than encouragement to stay on task.&lt;/p&gt;
+
+&lt;p&gt;We think that especially considering that you progress is judged solely by one individual this could lead to a large range of subjectivity. For example if a user suffers from ADHD or a mental disorder they may take more time to complete tasks, but that doesn’t necessarily mean they were not productive. This user may then be judged by someone who is a very fast learner and very productive and say they do not deserve to keep any of the money. We think that the bidding system can be easily abused in its current respect since it is solely based on one person’s opinion on another person’s work and has no checks and balances.&lt;/p&gt;
+
+&lt;p&gt;We think that although this could be an interesting idea, it seems infeasible to put a monetary weight on someone’s productivity.&lt;/p&gt;
+
+&lt;h1 id=&quot;solution-3-blocking&quot;&gt;Solution 3: Blocking&lt;/h1&gt;
+&lt;p&gt;The concepts involved in blocking are clear, but we find it a little confusing how you would enforce the locks. Does the blocking website have access to all of the user’s activity on a computer or phone? If, so this may be a violation of privacy and discourage people from using the site. It is a little unclear how the accountabuddy is supposed to hold the individual responsible. How is this different from iPhone usage reports that are generated weekly and the limits you can place on usage with that?&lt;/p&gt;
+
+&lt;p&gt;We think that this is definitely something that people could find useful, but we think that it may be unfeasible to implement given that it would have to monitor the person’s entire online activity. It is also a little unclear how this will make the student more motivated to do work. If a student blocks a specific site due to too much usage that doesn’t necessarily mean they will be more productive and motivated. For instance, if they spend too much time on TikTok and block it or set a time limit, they may just spend the time they save using Instagram.&lt;/p&gt;</content><author><name>Elisa Jacobo</name><email>elisaj@mit.edu</email></author><category term="Project" /><category term="6.1040" /><category term="Review" /><summary type="html">A review of another team&apos;s pitch</summary></entry><entry><title type="html">Project Review: Sharon Lin, Malobika Syed, Lola Wolf, Matthew Leonard</title><link href="http://localhost:4000/portfolio-aemp/project-review-1/" rel="alternate" type="text/html" title="Project Review: Sharon Lin, Malobika Syed, Lola Wolf, Matthew Leonard" /><published>2022-11-14T00:00:00-05:00</published><updated>2022-11-14T00:00:00-05:00</updated><id>http://localhost:4000/portfolio-aemp/project-review-1</id><content type="html" xml:base="http://localhost:4000/portfolio-aemp/project-review-1/">&lt;div id=&quot;entry-table-of-contents&quot; class=&quot;toc-wrapper&quot;&gt;
+  &lt;h2 id=&quot;toc-toggle&quot; class=&quot;no_toc&quot;&gt;
+  Table of Contents &lt;i class=&quot;toc-toggle-icon fas fa-chevron-down&quot;&gt;&lt;/i&gt;
+&lt;/h2&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#problem-definitions&quot; id=&quot;markdown-toc-problem-definitions&quot;&gt;Problem Definitions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#app-1&quot; id=&quot;markdown-toc-app-1&quot;&gt;App 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#app-2&quot; id=&quot;markdown-toc-app-2&quot;&gt;App 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#app-3&quot; id=&quot;markdown-toc-app-3&quot;&gt;App 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#overall-suggestions&quot; id=&quot;markdown-toc-overall-suggestions&quot;&gt;Overall Suggestions&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;This post is a peer review of the design ideas &lt;a href=&quot;https://www.youtube.com/watch?v=bV6lb4x029s&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;problem-definitions&quot;&gt;Problem Definitions&lt;/h1&gt;
+
+&lt;p&gt;We think the problems presented are interesting, but when describing them you use terminology that the average person is not familiar with. For example, can you avoid words like “layers”, “masks”, “github”, and “forking”? Additionally, make sure to fully describe who is affected by your problem. For example, it is not clear if the first problem (editing art) is specific to digital art creators. Overall, it would be more compelling to the audience if data or real world experiences were used when describing the problem to help contextualize it. We agree that the problems you spoke about are real and interesting, but since they are not problems the typical person encounters, they need a longer description.&lt;/p&gt;
+
+&lt;h1 id=&quot;app-1&quot;&gt;App 1&lt;/h1&gt;
+
+&lt;p&gt;The concepts are clear, but there are ambiguities that make it hard to determine if the operational principles are easy to complete. For example, does the Asset concept depend on the user creating art using a custom editor created by your team? If so, will the user easily know how to use it from experience using other editors? How do subcomponents get assigned primitives? Does this concept also limit the art that the user can create using this app? The post concept seems to be an adjustment on the known post concept, so it is clear and easy for the user to execute. It seems from your design diagram that, in posts, assets have names. It could be useful for users to see what assets are associated with which subcomponents (potentially when hovering over a name).&lt;/p&gt;
+
+&lt;p&gt;We think there are details that are missing, but with a little editing the concepts could form a coherent app. It would also solve the stated problem. We wonder if this app be edited to be an addition to current art creation apps, potentially by supporting importing art created using other editors in some form.&lt;/p&gt;
+
+&lt;h1 id=&quot;app-2&quot;&gt;App 2&lt;/h1&gt;
+
+&lt;p&gt;Both the Style and Status concepts seem to be additional artist information. We wonder if they could potentially be an adjustment to the Profile concept rather than being two separate concepts. They seem to have easy operational principles, both Style and Status requiring a few button clicks to edit and view.&lt;/p&gt;
+
+&lt;p&gt;Overall, these concepts look like adjustments to the Profile concept. It also is not clear if it is enough to address the problem. In addition to style and status, artists would need a way to showcase their work. How would you describe the concept that allows artists to do so? Also, how would an artist find a client who is a good match with them? Is there any way to choose between two clients who have the same styles listed?&lt;/p&gt;
+
+&lt;h1 id=&quot;app-3&quot;&gt;App 3&lt;/h1&gt;
+
+&lt;p&gt;The Segmented Story concept is a little unclear. It is not described how a segmented story is created. It is also not clear from the purpose of this concept why a user would want to create a segmented story. The concept was not described enough to determine if its operational principle is likely to be easy for users to execute. The Forking concept is very interesting. It seems from the diagram that the user can easily fork with two clicks. However, like mentioned with the Segmented Story Concept, it is not clear from the written purpose of this concept why a user would want to fork a story.&lt;/p&gt;
+
+&lt;p&gt;Even with the mentioned additional concepts, there are more concepts that are missing in order to form a coherent app. For example, chapters should potentially be its own concept. When first watching the video, we wondered if segmented stories were just collection of chapter titles or if they also contain chapter contents. This confusion would be answered with a Chapter concept. This app would solve the stated problem (if all concepts were defined).&lt;/p&gt;
+
+&lt;h1 id=&quot;overall-suggestions&quot;&gt;Overall Suggestions&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Avoid technical languages or references that the average person is not familiar with&lt;/li&gt;
+  &lt;li&gt;Include data or real world experiences to contextualize your problems&lt;/li&gt;
+  &lt;li&gt;Why should the average person care about the problem you are presenting?&lt;/li&gt;
+  &lt;li&gt;Make sure your concept purposes are not just concept definitions
+    &lt;ul&gt;
+      &lt;li&gt;Why would someone use your concept?&lt;/li&gt;
+      &lt;li&gt;What do they gain by using your concept?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Make sure there are no major questions about how your app works left unanswered by your concepts&lt;/li&gt;
+  &lt;li&gt;Would a user actually use your app?
+    &lt;ul&gt;
+      &lt;li&gt;If it is a substitute, does it offer something that would encourage a user to switch?&lt;/li&gt;
+      &lt;li&gt;If it is in addition to existing apps, is it easy enough to use and solves a large enough problem that a user would add it to their routine?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We overall liked your ideas and are excited to see which one you decide to implement. Good luck!&lt;/p&gt;</content><author><name>Elisa Jacobo</name><email>elisaj@mit.edu</email></author><category term="Project" /><category term="6.1040" /><category term="Review" /><summary type="html">A review of another team&apos;s pitch</summary></entry><entry><title type="html">Project Diverge: Team Contract and Project Pitch</title><link href="http://localhost:4000/portfolio-aemp/contract-and-pitch/" rel="alternate" type="text/html" title="Project Diverge: Team Contract and Project Pitch" /><published>2022-11-13T00:00:00-05:00</published><updated>2022-11-13T00:00:00-05:00</updated><id>http://localhost:4000/portfolio-aemp/contract-and-pitch</id><content type="html" xml:base="http://localhost:4000/portfolio-aemp/contract-and-pitch/">&lt;h1 id=&quot;team-contract&quot;&gt;Team Contract&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Expected level of achievement and effort for each team member (what grades do you expect to get? how much time do you plan to put in?);
+    &lt;ul&gt;
+      &lt;li&gt;Try to get an A while maintaining good mental and physical health&lt;/li&gt;
+      &lt;li&gt;Whatever is required to get the assigned part done for the shared goal of an impactful project that receives an A&lt;/li&gt;
+      &lt;li&gt;15 hr/week - 1 hr/week for prep for &amp;amp; team meeting w/ TAs = 14 hr/week (includes few hours of shared work and individual work)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Personal goals for each team member (building a great app? learning a particular skill?);
+    &lt;ul&gt;
+      &lt;li&gt;All: Build an impactful and authentic website&lt;/li&gt;
+      &lt;li&gt;Puja: Develop Vue, Vuex, and CSS skills to produce developed app&lt;/li&gt;
+      &lt;li&gt;Elisa: Build on backend and frontend development skills&lt;/li&gt;
+      &lt;li&gt;Monica: Improve front-end development skills and practice developing in Vue/Vuex&lt;/li&gt;
+      &lt;li&gt;Ashley: Improve development skills in both front end and back end&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Frequency, length and location of team meetings;
+    &lt;ul&gt;
+      &lt;li&gt;0.5 hrs of prep for TA meeting&lt;/li&gt;
+      &lt;li&gt;1 hr of check-in meeting (day before due date, convenient location like stud or dorm)&lt;/li&gt;
+      &lt;li&gt;As needed (such as when we need to help each other debug), schedule meetings in a location that’s convenient given the time (such as stud if during usual lecture time, or one of our dorms if it’s at night)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How quality of work will be maintained (reviewing each others’ code? team review meetings? pair programming?);
+    &lt;ul&gt;
+      &lt;li&gt;All work will be reviewed by at least one other member of the team&lt;/li&gt;
+      &lt;li&gt;Look at code at meetings the day before the due dates&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How tasks will be assigned, and what to do if deadlines are missed;
+    &lt;ul&gt;
+      &lt;li&gt;Collaboratively generate list of tasks needed to complete project&lt;/li&gt;
+      &lt;li&gt;Open discussion to decide how to assign tasks&lt;/li&gt;
+      &lt;li&gt;If deadlines are missed, reach out to person in-person / messenger and offer support and help because if one of us doesn’t finish something on time, it’s probably because we’re stuck and not because we didn’t care&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How decisions will be made and any disagreements resolved.
+    &lt;ul&gt;
+      &lt;li&gt;If there’s a decision we disagree on, try to think through pros and cons of each (including implementation time, complexity, and consumer benefit), then the decision gets made by majority vote. If tie, compromise if possible or rock paper scissors&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;project-pitch&quot;&gt;Project Pitch&lt;/h1&gt;
+
+&lt;p&gt;The video can be found at this link:
+&lt;a href=&quot;https://drive.google.com/file/d/1KOnKfF_q2hdWyw3xEmStfHTxlLxHfjVq/view?usp=sharing&quot;&gt;https://drive.google.com/file/d/1KOnKfF_q2hdWyw3xEmStfHTxlLxHfjVq/view?usp=sharing&lt;/a&gt;&lt;/p&gt;</content><author><name>Elisa Jacobo</name><email>elisaj@mit.edu</email></author><category term="Project" /><category term="6.1040" /><category term="Diverge" /><category term="AEMP" /><summary type="html">Team Contract and Project Pitch</summary></entry></feed>
