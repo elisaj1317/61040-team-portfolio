@@ -20,7 +20,7 @@ locale: en-US
 title: "AEMP's Portfolio"
 description: "Details progress made on FridgeCheck"
 baseurl: "/portfolio-aemp"
-url: "61040-team-portfolio.github.io"
+url: "61040-team-portfolio.vercel.app"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
