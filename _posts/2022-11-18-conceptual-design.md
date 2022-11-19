@@ -8,44 +8,64 @@ tags:
   - AEMP
 ---
 
+<style>
+  p {
+    margin-bottom: 0.25em !important;
+  }
+  p + ul {
+    margin-top: -0.25em !important;
+  }
+
+  p + h2, p + h1 {
+    margin-top: 1em !important;
+  }
+
+</style>
+
 {% include toc %}
 
 # Conceptual Design
 
-**Concept** : Food
+## Food
 
-**Purpose** : Track consumable objects in a user's fridge or pantry
+**Name** : Food [Item]
 
-**Operational principle** : If a user inputs a food item with an expiration date, then that food is displayed in order of expiration date (earliest at the top) in one of three sections: "Expiring within the next 7 days", "Expired", or "Rest of my stockpile".
+**Purpose** : Track consumable objects in an entity's fridge or pantry
+
+**Operational principle** : If an entity inputs a food item with an expiration date, then that food is displayed in order of expiration date (earliest at the top) in one of three sections: "Expiring within the next 7 days", "Expired", or "Rest of my stockpile".
 
 **State** :
 
-- stockpile: User -\> set Food // stores all foods by owner, there exists one for every owner
+- stockpile: Item -\> set Food // stores all foods by owner, there exists one for every owner
 - name: Food -\> one name // food's unique identifier
 - quantity: Food -\> one number // number of food in owner's possession
 - expiration: Food -\> lone Date // date of expiration on food
-- wner: Food -\> one User // entity who has possession of food
+- wner: Food -\> one Item // entity who has possession of food
 
 **Actions** :
 
-- User u adds a food with name x, quantity y, and expiration date z
+- Entity u adds a food with name x, quantity y, and expiration date z
   - Create a listing v
   - Set u as owner of v
   - Set v's name as x
   - Set v's quantity as y
   - Set v's expiration date as z
   - Add v to u's stockpile
-- User u removes a food v where u is owner of v
+- Entity u removes a food v where u is owner of v
   - Remove u as owner as v
   - Remove v from u's stockpile
-- User u decreases quantity to x of food v where u is owner of v
+- Entity u decreases quantity to x of food v where u is owner of v
   - Decrease quantity of food v to x
 
-**Name** : Community
 
-**Purpose** : Find available food that the user is willing to travel to
 
-**Operational Principle** : If a user follows a community, then when they are missing items needed to make a recipe, they can see food items available from people in that community
+## Community
+
+**Name** : Community [Item]
+
+**Purpose** : Find available food that an entity is willing to travel to
+
+**Operational Principle** : If an entity follows a community, then when they are missing items needed to make a recipe, they can see food items available from people in that community
 
 - Note: the person who wants the food does the walking
 - Note: Due to the time constraint, there will be preset communities limited to the MIT community
@@ -53,15 +73,17 @@ tags:
 **State** :
 
 - name: Community -\> one name // community's unique identifier
-- members: Community -\> set User // users who have joined the community (each user can only be a member to one community)
-- followers: Community -\> set User //users who are willing to walk to this community to claim food
+- members: Community -\> set Item // entities who have joined the community (each entity can only be a member to one community)
+- followers: Community -\> set Item // entities who are willing to walk to this community to claim food
 
 **Actions** :
 
-- User u follows community with name v
+- Entity u follows community with name v
   - Add u to community v's followers
-- User u unfollows community with name v
+- Entity u unfollows community with name v
   - Remove u from community v's followers
+
+## User
 
 **Name** : User
 
@@ -101,12 +123,11 @@ tags:
 - User signs out where there is a user signed in
   - Current user is signed out
 
+## Recipe
+
 **Name** : Recipe
 
-- Note: Uses spoonacular API (https://spoonacular.com/food-api)
-
-- Click button to get random recipe
-- Search bar to search "cake" specifically
+Note: Uses [spoonacular API](https://spoonacular.com/food-api)
 
 **Purpose** : Use user's stored items to suggest snacks or meals, and provide information on which ingredients are in their fridge and which they do not currently have
 
@@ -126,7 +147,10 @@ tags:
 - User searches for recipe with name n
   - Get Set of recipes r from spoonacular api that contain n in the name
 
-**Name** : Listing
+
+## Listing
+
+**Name** : Listing [Item]
 
 **Purpose** : Sell or give away food to people in your communities
 
@@ -136,13 +160,13 @@ tags:
 
 **State** :
 
-- item: Listing -\> one Food // Food Item being posted for exchange/sale
-- price: Listing -\> lone price // Price for food item being posted
+- item: Listing -\> one Item // Item being posted for exchange/sale
+- price: Listing -\> lone price // Price for item being posted
 - listings: User -\> set Listing // All listings by a user
 
 **Actions** :
 
-- User creates a listing for food u with optional price p
+- User creates a listing for item u with optional price p
   - If u has an expiration date that has not passed, then a listing is created with item u and price p (if given)
   - The listing is added to user's set of listings
 - User deletes a listing u
@@ -154,15 +178,15 @@ tags:
 
 # Tradeoffs
 
-**Creating Communities**
+## Creating Communities
 
 Originally, we wanted users to be able to create communities to allow them more flexibility in where they list their foods. However, this flexibility adds complexity that is not core to our app. The purpose of communities is to "find available food that the user is willing to travel to." Thus, we would need to define distance. How do we allow users to define their location in a consistent way? How do we measure the location between two users? Due to the time constraint, we decided to limit communities to communities on MIT's campus. This will allow us to focus on novel features that are core to our app instead of calculating distance.
 
-**Food Exchange**
+## Food Exchange
 
 Originally we wanted to allow consumers access to all of the listings within their communities. This brought up many questions about the purpose of our website. Do we want people to just exchange food between each other? Do we want to guarantee that the food being exchanged will be used promptly? We decided the focus of the website was to search for recipes based on food you currently have and/or a specific recipe you want to make and only requesting items for things that are not currently in your stockpile. This would achieve our goal of minimizing food waste since it ensures that the user claiming a food item intends to use it in the near future. Thus our main objective of the food exchange was as a supplement to the recipes feature, as such we decided the community listings to be internal and users only have access to specific community listings when they search for a recipe that requires certain ingredients that they do not have in the stockpile.
 
-**Search based on Custom Recipe**
+## Search based on Custom Recipe
 
 We debated over the idea of allowing custom recipes in our app, meaning users could add recipes that they regularly like to make and indicate the quantity of each ingredient needed. Then, users could click on that recipe to see what ingredients they're missing and who they can contact to procure those ingredients. We've decided against this because we think that allowing a user to create a custom recipe would add complexity to the user experience since we are already allowing the user to search through a database of a wide variety of recipes. We also want to have the user search based on the ingredients they have, which if the user had a custom recipe they would already know they could make it and that would defeat the purpose of the recipe search function. If a user wants to make a custom recipe they can simply remove the items they used from their stockpile and add any leftovers they have from making the recipe.
 
