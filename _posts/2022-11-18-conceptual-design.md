@@ -40,7 +40,7 @@ tags:
 - name: Food -\> one name // food's unique identifier
 - quantity: Food -\> one number // number of food in owner's possession
 - expiration: Food -\> lone Date // date of expiration on food
-- wner: Food -\> one Item // entity who has possession of food
+- owner: Food -\> one Item // entity who has possession of food
 
 **Actions** :
 
