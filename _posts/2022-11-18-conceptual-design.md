@@ -171,8 +171,9 @@ Note: Uses [spoonacular API](https://spoonacular.com/food-api)
   - The listing is added to user's set of listings
 - User deletes a listing u
   - The listing u is removed from the user's set of listings
-- User edits a listing u with new price p
+- User edits a listing u with new price p and quantity q
   - The price associated with listing u is changed to p
+  - The quantity associated with listing u is changed to q
 - User searches for listings for item x
   - Gets listings whose item is listed as x
 
